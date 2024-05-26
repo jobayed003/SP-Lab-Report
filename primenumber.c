@@ -23,7 +23,6 @@ int main() {
     if (isPrime(i))
       printf("%d ", i);
   }
-  printf("\n");
 
   return 0;
 }

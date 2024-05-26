@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-  int n, sum = 0;
+  int n, sum = 0,div= 10;
 
-  printf("Enter a non-negative integer: ");
+  printf("Enter an integer: ");
   scanf("%d", &n);
 
   if (n < 0) {
-    printf("The number is negative. Please enter a non-negative integer.\n");
+    printf("The number is negative. Please enter a positive integer.");
   } else {
     while (n > 0) {
-      sum += n % 10; 
-      n /= 10;
+      sum += n % div; 
+      n /= div;
     }
 
     printf("The sum of the digits is: %d\n", sum);

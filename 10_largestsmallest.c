@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-int compare(a, b) { return (a - b); }
-
 int main() {
   int temp, size, i;
 
